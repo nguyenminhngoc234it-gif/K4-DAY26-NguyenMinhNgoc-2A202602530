@@ -58,6 +58,8 @@ python auth_client.py              # terminal 2
 cd 03-production && python registry_client.py
 ```
 
+Trong PowerShell, đặt API key cho phiên terminal hiện tại bằng `$env:GEMINI_API_KEY = "your-api-key"` trước khi chạy demo Function Calling.
+
 ---
 
 ## Định nghĩa ngắn gọn

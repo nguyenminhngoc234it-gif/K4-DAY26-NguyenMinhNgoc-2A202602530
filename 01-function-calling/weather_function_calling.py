@@ -7,6 +7,10 @@ Cách chạy:
     pip install -r ../requirements.txt
     export GEMINI_API_KEY=...
     python weather_function_calling.py
+
+PowerShell:
+    $env:GEMINI_API_KEY = "your-api-key"
+    python weather_function_calling.py
 """
 
 from google import genai
@@ -119,5 +123,6 @@ def run(prompt: str) -> str:
 
 if __name__ == "__main__":
     question = "Thời tiết Hà Nội và Đà Nẵng hôm nay thế nào?"
+    #question = "Tôi nên mang gì khi ra ngoài ở Hà Nội?"
     print(f"User: {question}\n")
     print("Trả lời:", run(question))

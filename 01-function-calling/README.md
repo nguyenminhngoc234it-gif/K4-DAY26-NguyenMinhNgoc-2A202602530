@@ -21,6 +21,13 @@ export GEMINI_API_KEY=...
 python weather_function_calling.py
 ```
 
+Trong PowerShell, thay lệnh `export` bằng:
+
+```powershell
+$env:GEMINI_API_KEY = "your-api-key"
+python weather_function_calling.py
+```
+
 ## File
 
 | File | Mô tả |
